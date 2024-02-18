@@ -65,7 +65,7 @@ jobs:
       run: pwd 
 
     - name: pull the Repo -pull-
-      run: git commit https://github.com/lordagam/Project-DevOps-devops-prod.online-testing-.git && ls -alh
+      run: git clone https://github.com/lordagam/Project-DevOps-devops-prod.online-testing-.git && ls -alh
 
     - name: Go To Dir-File 
       run: cd /home/ec2-user/Project-DevOps-devops-prod.online-actions-runner/_work/Project-DevOps-devops-prod.online/Terraform
